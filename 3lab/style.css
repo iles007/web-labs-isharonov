@@ -1,0 +1,22 @@
+header{
+    height: 100vh;
+    background:url(img/fon.jpg) no-repeat no-repeat ;
+    background-size: cover;
+}
+li{
+    margin-left: 20px;
+}
+h3#onekek{
+    margin-top: 20px;
+}
+main#twokek{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2#threekek{
+    margin-bottom: 20px;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
