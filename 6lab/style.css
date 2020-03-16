@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 92, 92);
+    margin-right: 20px;
+    position: absolute;
+    transition: .3s;
+    box-shadow: 2px 2px 2px 2px red;
+    
+}
+.box:hover{
+    background-color: black;
+}
+.box1{
+    animation: 5s 2s box1 infinite; 
+    left: 200px;
+}
+.box2{
+    animation: 5s 2s box2 infinite; 
+    left: 300px;
+}
+.box3{
+    animation: 5s 2s box3 infinite; 
+    left: 400px;
+}
+.box4{
+    animation: 5s 2s box4 infinite; 
+    left: 500px;
+}
+.box5{
+    animation: 5s 2s box5 infinite; 
+    left: 600px;
+}
+.box6{
+    animation: 5s 2s box6 infinite; 
+    left: 700px;
+}
+.box7{
+    animation: 5s 2s box7 infinite; 
+    left: 800px;
+}
+.box8{
+    animation:5s  2s box8 infinite; 
+    left: 900px;
+}
+.box9{
+    animation: 5s 2s box9 infinite; 
+    left: 1000px;
+}
+.box10{
+    left: 1100px;
+    animation: 5s 2s box10 infinite; 
+}
+@keyframes box1{
+    50%{
+        height: 400px;
+        width: 50px;
+    }
+}
+@keyframes box2{
+    50%{
+        height: 350px;
+        width: 50px;
+        transform:  translateX(-25px) translateY(20px) rotate(27deg);
+    }
+}
+@keyframes box3{
+    50%{
+        height: 400px;
+        width: 50px;
+        transform:  translateX(-45px);
+    }
+}
+@keyframes box4{
+    50%{
+        height: 400px;
+        width: 50px;
+        transform:  translateX(-25px) rotate(15deg);
+    }
+}
+@keyframes box5{
+    50%{
+        height: 400px;
+        width: 50px;
+        transform:  rotate(-15deg);
+    }
+}
+@keyframes box6{
+    50%{
+        height: 400px;
+        width: 50px;
+        transform: translateX(20px);
+    }
+}
+@keyframes box7{
+    50%{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        transform: translateX(-60px) translateY(95px);
+        background-color: transparent;
+        border: 30px solid rgb(255, 92, 92);
+    }
+}
+@keyframes box8{
+    50%{
+        height: 240px;
+        width: 50px;
+        transform: translateX(170px) translateY(90px) rotate(30deg);
+    }
+}
+@keyframes box9{
+    50%{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        transform: translateX(0px) translateY(-100px);
+        background-color: transparent;
+        border: 30px solid rgb(255, 92, 92);
+    }
+}
+@keyframes box10{
+    50%{
+        height: 200px;
+        width: 50px;
+        opacity: 0.95;
+        transform: translateX(60px) translateY(100px) ;
+    }
+}
