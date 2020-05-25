@@ -1,0 +1,22 @@
+section#info{page-break-before: always;}
+header{display: none;}
+a{display: none;}
+section#info{
+    -webkit-print-color-adjust: exact;
+}
+section{
+    page-break-inside: avoid;
+}
+li{
+    color: #000;
+}
+p{
+    color: #000;
+}
+h2{
+    color: #000;
+}
+
+section#info > p{
+    color: #fff;
+}
