@@ -1,3 +1,12 @@
+span#zad{
+  top: 1150px;
+  position: absolute;
+  z-index: 0;
+  font-size: 230px;
+  color: #fff;
+  opacity: 0.1;
+}
+
 header {
   width: 100vw;
   height: 100vh;
@@ -293,6 +302,7 @@ a {
   margin-top: 0px; }
 
 .catalog__services {
+  z-index: 1;
   height: 420px;
   max-width: 100vw;
   margin: 0;
@@ -685,12 +695,14 @@ footer {
     padding: 15px 15px 10px 15px; }
 
 @media only screen and (min-width: 420px) and (max-width: 1024px) {
+  span#zad{
+    display: none;
+  }
   body {
     overflow-x: hidden; }
 
   header {
     width: 100vw;
-    max-width: 100vh;
     overflow-x: hidden;
     background: url(../images/main.bc.png) center no-repeat;
     background-size: cover;
@@ -780,7 +792,6 @@ footer {
 
   .catalog {
     min-height: 100vh;
-    height: 400vh;
     background-color: #3B181E; }
     .catalog h1 {
       margin-top: 20px; }
@@ -959,6 +970,9 @@ footer {
           .popup .popup__overlay .popup__body .form h2 {
             font-size: 20px; } }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  span#zad{
+    display: none;
+  }
   body {
     overflow-x: hidden; }
 
@@ -1049,7 +1063,6 @@ footer {
 
   .catalog {
     min-height: 100vh;
-    height: 400vh;
     background-color: #3B181E; }
 
   .catalog__services {
@@ -1075,7 +1088,7 @@ footer {
     background-color: #3b181E; }
 
   .catalog_akc {
-    margin-top: 1370px;
+    margin-top: 670px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
