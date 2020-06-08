@@ -21,6 +21,7 @@ a:hover{
 }
 h2{
     font-size: 32px;
+    margin: 0;
 }
 h1{
     font-size: 64px;
@@ -48,43 +49,35 @@ header{
     }
 }
 
-section#one{
+
+#three_in_one{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 50px;
+
+
 
     .left{
+        display: grid;
         grid-column-gap: 40px;
         grid-template-columns: 2fr 1fr;
-
         img{
             width: 100%;
         }
     }
-}
-
-section#two{
-    margin-top: 50px;
-
     .right{
+        display: grid;
         grid-column-gap: 40px;
         grid-template-columns: 1fr 2fr;
-
+    
         img{
             width: 100%;
         }
     }
 }
 
-section#three{
-    margin-top: 50px;
 
-    .left{
-        grid-column-gap: 40px;
-        grid-template-columns: 2fr 1fr;
 
-        img{
-            width: 100%;
-        }
-    }
-}
 
 section#four{
     margin-top: 50px;
